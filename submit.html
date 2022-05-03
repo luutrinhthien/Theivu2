@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="image/icon.png">
+	<title>THEIVU</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/c372c3cd13.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/navbar.css">
+	<div>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" type="text/css"
+			href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+		<link rel="stylesheet" href="./css/app.css" />
+	</div>
+</head>
+<header style="z-index: 99999; padding-left: 20px; padding-right: 20px;" id="site-header" class="main-header">
+	<div class="header-mid wrap-flex-align">
+		<div class="visible-lg visible-md col-header-mid"></div>
+		<div class="wrap-logo main-logo-theivu" itemscope="" itemtype="http://schema.org/Organization">
+
+			<a href="https://www.facebook.com/Theivu.official/" itemprop="url">
+				<img itemprop="logo" src="image/logo.png" alt="THEIVU" class="img-responsive logoimg" />
+			</a>
+
+		</div>
+		<div class="header-wrap-icon">
+
+		</div>
+	</div>
+
+	<div class="menu-desktop hidden-sm hidden-xs">
+		<div class="wrap-logo wrap-logp-mb">
+
+			<a href="https://www.facebook.com/Theivu.official/">
+				<img style="width: 42px; height: 42px;" src="image/logo.png" alt="THEIVU"
+					class="img-responsive logoimg" />
+			</a>
+
+		</div>
+		<div id="nav">
+			<nav class="main-nav text-center">
+				<ul class="clearfix">
+
+
+					<li class="nav-mb" style="display: none;">
+						<a href="index.html" title="TRANG CHỦ">
+							<p style="font-weight: 600;font-size: x-large;">&emsp;&emsp;&ensp;THEIVU</p>
+						</a>
+					</li>
+
+
+					<li class="nav_pc">
+						<a href="index.html" title="TRANG CHỦ">
+							TRANG CHỦ
+						</a>
+					</li>
+
+
+					<li class="nav_pc">
+						<a href="about-us.html" title="ABOUT US">
+							ABOUT US
+						</a>
+
+					</li>
+
+					<li class="nav_pc">
+						<a href="products.html" title="SẢN PHẨM">
+							SẢN PHẨM
+						</a>
+
+					</li>
+
+
+					<li class="nav_pc">
+						<a href="phukien.html" title="PHỤ KIỆN">
+							PHỤ KIỆN
+						</a>
+					</li>
+
+					<li class="nav_pc">
+						<a style="cursor:pointer"
+							onclick="document.querySelector('.footer').scrollIntoView({behavior: 'smooth'})"
+							title="LIÊN HỆ">
+							LIÊN HỆ
+						</a>
+					</li>
+
+					<label for="nav-mobile-input">
+						<li class="nav__bars-btn" style="display: none;">
+							<svg xmlns="http://www.w3.org/2000/svg"
+								style="cursor: pointer;top: 0px;right: 5px;position:absolute;" width="40" height="40"
+								fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+								<path fill-rule="evenodd"
+									d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+							</svg>
+						</li>
+					</label>
+					<input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+
+					<label for="nav-mobile-input" class="nav__overlay"></label>
+
+					<nav class="nav__mobile">
+						<label for="nav-mobile-input" class="nav__mobile-close">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+								class="bi bi-x-lg" viewBox="0 0 16 16">
+								<path fill-rule="evenodd"
+									d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z" />
+								<path fill-rule="evenodd"
+									d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
+							</svg>
+						</label>
+						<ul class="nav__mobile-list">
+							<li><a href="index.html" class="nav__mobile-link">TRANG CHỦ</a></li>
+							<li><a href="about-us.html" class="nav__mobile-link">ABOUT US</a></li>
+							<li><a href="products.html" class="nav__mobile-link">SẢN PHẨM</a></li>
+							<li><a href="phukien.html" class="nav__mobile-link">PHỤ KIỆN</a></li>
+							<li><a style="cursor:pointer"
+									onclick="document.querySelector('.footer').scrollIntoView({behavior: 'smooth'})"
+									title="LIÊN HỆ" class="nav__mobile-link">LIÊN HỆ</a></li>
+
+						</ul>
+					</nav>
+
+				</ul>
+			</nav>
+
+		</div>
+
+
+	</div>
+</header>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<body>
+	<div class="text-center" style="margin-top: 150px; margin-bottom: 20px;">
+		<h1>Thông tin giao hàng</h1>
+	</div>
+	<div class="row">
+		<div class="needtobeflex">
+			<form class="needtobe100" method="post" action="/submit.html" id="submit_form">
+				<div class="msg"></div>
+				<div class="form-group">
+					<label for="exampleInputName">Name</label>
+					<input type="name" name="fullname" class="form-control" id="name" placeholder="Họ và tên">
+					<span class="required"></span>
+				</div>
+
+				<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" name="email" class="form-control" id="exampleInputEmail1"
+						placeholder="Enter email">
+					<span class="required"></span>
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+						else.</small>
+
+					<div class="form-group">
+						<label for="exampleInputName">Address</label>
+						<input type="name" name="address" class="form-control" id="address"
+							placeholder="Địa chỉ giao hàng">
+						<span class="required"></span>
+					</div>
+
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPhone1">Phone number</label>
+					<input type="number" name="phone" class="form-control" id="exampleInputPassword1"
+						placeholder="Your phone number">
+					<span class="required"></span>
+				</div>
+
+				<div class="form-group">
+					<label style="margin-top: 20px;" for="teeName">Chọn loại áo: </label>
+					<select id="teeName" name="teeName">
+						<option value="thefool">The Fool</option>
+						<option value="thechariot">The Chariot</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="teeColor">Chọn màu sắc: </label>
+					<select id="teeColor" name="teeColor">
+						<option value="White">Trắng</option>
+						<option value="Black">Đen</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="teeSize">Chọn size: </label>
+					<select id="teeSize" name="teeSize">
+						<option value="M">M</option>
+						<option value="L">L</option>
+						<option value="XL">XL</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="quantity">Số lượng: </label>
+					<input type="number" id="quantity" name="quantity" min="0" max="10" value="0">
+				</div>
+				<div style="margin-top: 30px;"></div>
+				<div id="tongtienphaitra"></div>
+				<button style="font-size:20px; padding:10px 30px; background-color: #446084;" type="submit"
+					class="btn btn-success mymb-btn">Xác nhận</button>
+			</form>
+			<img class="needtobehid-mb" src="image/logoBlack.jpeg" style="margin-left:20px;width: 50%;" alt="">
+		</div>
+		<ul style="height: 200px;"></ul>
+	</div>
+	<script>
+		document.querySelector('#submit_form').onsubmit = function (e) {
+			e.preventDefault();
+
+			let msgOj = document.querySelector('.msg')
+			msgOj.innerText = '';
+
+			let fullNameObj = document.querySelector('input[name="fullname"]');
+			let emailObj = document.querySelector('input[name="email"]');
+			let phoneObj = document.querySelector('input[name="phone"]');
+			let address = document.querySelector('input[name="address"]');
+
+			let teeName = document.querySelector('#teeName');
+			let teeColor = document.querySelector('#teeColor');
+			let teeSize = document.querySelector('#teeSize');
+			let quantity = document.querySelector('#quantity');
+
+
+			// let fullName = fullNameObj.value;
+			// let email = emailObj.value;
+			// let phone = phoneObj.value;
+			let requireObj = document.querySelectorAll('.required');
+			if (requireObj.length > 0) {
+				requireObj.forEach((item) => {
+					item.innerText = '';
+				})
+			}
+			e.preventDefault();
+
+			let errors = {};
+
+			if (fullNameObj.value.trim() == '') {
+				errors['fullname'] = 'Họ và tên không được để trống';
+				fullNameObj.parentElement.querySelector('.required').innerText = errors['fullname']
+			}
+			if (emailObj.value.trim() == '') {
+				errors['email'] = 'Email không được để trống';
+				emailObj.parentElement.querySelector('.required').innerText = errors['email']
+			}
+			if (phoneObj.value.trim() == '') {
+				errors['phone'] = 'SDT không được để trống';
+				phoneObj.parentElement.querySelector('.required').innerText = errors['phone']
+			}
+
+			if (Object.keys(errors).length == 0) {
+				let data = {
+					'entry.637580188': fullNameObj.value,
+					'entry.1894015866': emailObj.value,
+					'entry.2007073895': phoneObj.value,
+					'entry.2024957355': teeName.value,
+					'entry.22266870': teeSize.value,
+					'entry.1593567550': quantity.value,
+					'entry.793562109': teeColor.value,
+					'entry.1794597249': address.value
+				}
+
+				let queryString = new URLSearchParams(data);
+				queryString = queryString.toString();
+
+				msgOj.innerHTML = '<div class="alert alert-success text-center">Đang xử lí...</div>"';
+
+				let xhr = new XMLHttpRequest();
+				xhr.open("POST", 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSex7wVJQKI9J_SsguLghENdtE6otAr3Ha48VWcmtG4QG8R8EA/formResponse')
+				xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+				msgOj.innerHTML = '<div class="alert alert-success text-center">Gửi dữ liệu thành công</div>'
+
+				let tien = document.querySelector('#tongtienphaitra');
+				let tongtien = quantity.value * 300;
+				tien.innerHTML = `<span style="color:red;font-size: 20px;">* Vui lòng trả ${tongtien}.000 VNĐ khi nhận hàng *</span>`
+
+				fullNameObj.value = '';
+				emailObj.value = '';
+				phoneObj.value = '';
+				teeName.value = 'thefool';
+				teeSize.value = 'S';
+				quantity.value = '0';
+				teeColor.value = 'White';
+				address.value = '';
+
+				xhr.send(queryString);
+
+			} else {
+				msgOj.innerHTML = '<div class="alert alert-danger text-center">Vui lòng kiểm tra dữ liệu</div>';
+			}
+
+		}
+	</script>
+	<style>
+		a {
+			text-decoration: none;
+		}
+
+		.needtobeflex {
+			display: flex;
+		}
+
+		.nav__overlay {
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.3);
+			display: none;
+		}
+
+		.nav__mobile {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			width: 250px;
+			max-width: 100%;
+			background-color: #fff;
+			transform: translateX(100%);
+			opacity: 0;
+			transition: transform linear 0.2s, opacity linear 0.2s;
+		}
+
+		.nav__mobile-list {
+			margin-top: 24px;
+		}
+
+		.nav__mobile-link {
+			text-decoration: none;
+			cursor: pointer;
+			display: block;
+			color: #fff;
+			font-size: larger;
+			padding: 8px 0;
+			text-align: left;
+			margin-left: 50px;
+			margin-top: 10px;
+		}
+
+		.nav__mobile-close {
+			text-align: right;
+			color: #666;
+			cursor: pointer;
+			position: absolute;
+			top: 1rem;
+			right: 1rem;
+		}
+
+		.nav__input:checked~.nav__overlay {
+			display: block;
+		}
+
+		.nav__input:checked~.nav__mobile {
+			transform: translateX(0);
+			opacity: 1;
+		}
+
+		.needtobe100 {
+			width: 50%;
+		}
+
+		.row {
+			width: 75%;
+			margin: auto;
+		}
+
+		@media (max-width: 1023px) {
+			.nav__bars-btn {
+				display: block !important;
+			}
+
+			.main-header .wrap-logp-mb {
+				visibility: unset;
+				opacity: 1;
+			}
+
+			.nav_pc {
+				display: none;
+			}
+
+			.main-logo-theivu {
+				display: none;
+			}
+
+			.nav-mb {
+				display: block !important;
+			}
+
+			.image__pc {
+				display: none;
+			}
+
+			.unbox {
+				width: fit-content;
+				/* block-size: fit-content; */
+			}
+
+			.needtobeflex {
+				display: block;
+			}
+
+			.needtobehid-mb {
+				display: none;
+			}
+
+			.form-group {
+				width: 100%;
+			}
+
+			.needtobe100 {
+				width: 100%;
+			}
+
+			.row {
+				width: 100%;
+			}
+
+			.mymb-btn {
+				width: 100%;
+				color: white;
+			}
+		}
+	</style>
+</body>
+
+</html>

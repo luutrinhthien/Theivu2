@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="image/icon.png">
+  <title>THEIVU</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/c372c3cd13.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/navbar.css">
+  <div>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+  </div>
+</head>
+<header style="z-index: 99999; padding-left: 20px; padding-right: 20px;" id="site-header" class="main-header">
+  <div class="header-mid wrap-flex-align">
+    <div class="visible-lg visible-md col-header-mid"></div>
+    <div class="wrap-logo main-logo-theivu" itemscope="" itemtype="http://schema.org/Organization">
+
+      <a href="https://www.facebook.com/Theivu.official/" itemprop="url">
+        <img itemprop="logo" src="image/logo.png" alt="THEIVU" class="img-responsive logoimg" />
+      </a>
+
+    </div>
+    <div class="header-wrap-icon">
+
+    </div>
+  </div>
+
+  <div class="menu-desktop hidden-sm hidden-xs">
+    <div class="wrap-logo wrap-logp-mb">
+
+      <a href="https://www.facebook.com/Theivu.official/">
+        <img style="width: 42px; height: 42px;" src="image/logo.png" alt="THEIVU" class="img-responsive logoimg" />
+      </a>
+
+    </div>
+    <div id="nav">
+      <nav class="main-nav text-center">
+        <ul class="clearfix">
+
+
+          <li class="nav-mb" style="display: none;">
+            <a href="index.html" title="TRANG CHỦ">
+              <p style="font-weight: 600;font-size: x-large; ">&emsp;&emsp;&ensp;THEIVU</p>
+            </a>
+          </li>
+
+
+          <li class="nav_pc">
+            <a href="index.html" title="TRANG CHỦ">
+              TRANG CHỦ
+            </a>
+          </li>
+
+
+          <li class="nav_pc">
+            <a href="about-us.html" title="ABOUT US">
+              ABOUT US
+            </a>
+
+          </li>
+
+          <li class="nav_pc">
+            <a href="products.html" title="SẢN PHẨM">
+              SẢN PHẨM
+            </a>
+
+          </li>
+
+
+          <li class="nav_pc">
+            <a href="phukien.html" title="PHỤ KIỆN">
+              PHỤ KIỆN
+            </a>
+          </li>
+
+          <li class="nav_pc">
+            <a style="cursor:pointer" onclick="document.querySelector('.footer').scrollIntoView({behavior: 'smooth'})"
+              title="LIÊN HỆ">
+              LIÊN HỆ
+            </a>
+          </li>
+
+          <label for="nav-mobile-input">
+            <li class="nav__bars-btn" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;top: 0px;right: 5px;position:absolute;"
+                width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+            </li>
+          </label>
+          <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+
+          <label for="nav-mobile-input" class="nav__overlay"></label>
+
+          <nav class="nav__mobile">
+            <label for="nav-mobile-input" class="nav__mobile-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z" />
+                <path fill-rule="evenodd"
+                  d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
+              </svg>
+            </label>
+            <ul class="nav__mobile-list">
+              <li><a href="index.html" class="nav__mobile-link">TRANG CHỦ</a></li>
+              <li><a href="about-us.html" class="nav__mobile-link">ABOUT US</a></li>
+              <li><a href="products.html" class="nav__mobile-link">SẢN PHẨM</a></li>
+              <li><a href="phukien.html" class="nav__mobile-link">PHỤ KIỆN</a></li>
+              <li><a style="cursor:pointer"
+                  onclick="document.querySelector('.footer').scrollIntoView({behavior: 'smooth'})" title="LIÊN HỆ"
+                  class="nav__mobile-link">LIÊN HỆ</a></li>
+
+            </ul>
+          </nav>
+
+        </ul>
+      </nav>
+
+    </div>
+
+
+  </div>
+</header>
+
+<body>
+  <style>
+    body {
+      /* background: #21436e; */
+      background: #fff;
+      font-style: oblique;
+    }
+
+    p {
+      color: black;
+      font-size: 17px;
+      color: black;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .slide {
+      max-width: 580px;
+      margin: 20px auto;
+      display: grid;
+      box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .slide-items {
+      position: relative;
+      grid-area: 1/1;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .slide-nav {
+      grid-area: 1/1;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr;
+    }
+
+    .slide-nav button {
+      -webkit-appearance: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      opacity: 0;
+    }
+
+    .slide-items>* {
+      position: absolute;
+      top: 0px;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .slide-items>.active {
+      position: relative;
+      opacity: 1;
+      pointer-events: initial;
+    }
+
+    .slide-thumb {
+      display: flex;
+      grid-column: 1 / 3;
+    }
+
+    .slide-thumb>span {
+      flex: 1;
+      display: block;
+      height: 3px;
+      background: rgba(0, 0, 0, 0.4);
+      margin: 5px;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .slide-thumb>span.active::after {
+      content: '';
+      display: block;
+      height: inherit;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 3px;
+      transform: translateX(-100%);
+      animation: thumb 5s forwards linear;
+    }
+
+    @keyframes thumb {
+      to {
+        transform: initial;
+      }
+    }
+
+    .first-content,
+    .second-content {
+      display: flex;
+      padding: 10px 10px;
+    }
+
+    #first-div {
+      animation: slideInLeft ease 1s;
+      width: 60%;
+      height: 100%;
+      position: relative;
+    }
+
+    .half-firstdiv {
+      align-self: center;
+      position: absolute;
+      background-color: rgb(244, 244, 244);
+      padding: 50px;
+    }
+
+    .half-firstdiv p {
+      padding-left: 50px;
+    }
+
+    .half-seconddiv {
+      align-self: center;
+      padding: 50px;
+    }
+
+    .half-seconddiv p {
+      padding: 50px;
+    }
+
+    .second-content {
+      background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, .3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .3) 1px, transparent 1px);
+      background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+
+    }
+
+    #second-div {
+      animation: slideInLeft ease 1s;
+      width: 40%;
+    }
+
+    #third-div {
+      animation: slideInRight ease 1s;
+      width: 50%;
+      height: 100%;
+    }
+
+    #fourth-div {
+      animation: slideInRight ease 1s;
+      width: 50%;
+    }
+
+    #fifth-div {
+      animation: slideInLeft ease 1s;
+      width: 60%;
+      height: 100%;
+      position: relative;
+    }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-200%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideInRight {
+      from {
+        opacity: 0;
+        transform: translateX(200%);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+  <div style="margin-top: 150px;"></div>
+  <div>
+    <p style="font-size: 60px; font-weight: 900; margin-bottom: 50px;" class="text-center">THEIVU</p>
+  </div>
+
+  <div class="main-content">
+    <div class="first-content">
+      <div id="first-div" class="half-firstdiv">
+        <p style="font-weight:bolder; font-size: large;">THE FOOL</p>
+        <p>The Fool - Phiên bản ngây thơ của mỗi người trước khi chuyển mình tiến vào cuộc hành trình đến với thế giới
+          của người lớn. Chuyến đi thực sự mới mẻ và lạ lùng gây nên cảm giác lạc lối, cô độc và không khỏi hoang mang.
+          The Fool tượng trưng cho hình ảnh của những người trẻ mang trong mình sự ngây thơ cùng với niềm tin tuyệt đối
+          dành cho bản thân. Nên có thể nói rằng chính tính cách của The Fool đã tạo ra con người mạnh mẽ như chúng ta
+          của hiện tại. Dù có cô độc nhưng rất xứng đáng.</p>
+      </div>
+      <div id="second-div">
+        <img src="image/pic.jpeg" alt="">
+      </div>
+    </div>
+    <div class="second-content" style="margin-top: 35px; background-color: rgb(244, 244, 244);">
+      <div id="third-div" class="half-seconddiv">
+        <p
+          style="font-style: oblique !important;;font-size: 40px ;font-family: 'helvetica-neue-lt-std-roman', sans-serif !important;">
+          The fresher</p>
+      </div>
+      <div id="fourth-div">
+        <p style="margin-top: 35px;">Chúng ta, những con người đã bị rung động bởi các giá trị của cảm xúc đầu đời và sự
+          nhiệt huyết mà tuổi trẻ mang lại. Bằng tất cả những gì chiêm nghiệm được, bọn mình đã có cảm hứng để mang The
+          Fool và The Chariot đến với các bạn. Đây cũng là 2 lá bài biểu hiện rõ nhất trong bộ bài Tarot nói lên được
+          những va vấp, khờ dại và sự cố chấp với ước mơ, hoài bão, không ngừng đấu tranh của tuổi trẻ. Hãy cùng Theivu
+          đếm ngược khoảnh khắc để chào đón The Fool và The Chariot - khoảnh khắc mà mỗi người trong chúng ta đều đã,
+          đang và sẽ trải nghiệm bằng những rung cảm riêng biệt nhất.</p>
+      </div>
+    </div>
+    <div class="first-content" style="margin-top: 20px;">
+      <div id="fifth-div" class="half-firstdiv">
+        <p style="font-weight:bolder; font-size: large;">THE Chariot</p>
+        <p>Song song đó không thể thiếu The Chariot - mang trong mình sự nhiệt huyết của tuổi trẻ, kiên quyết và đầy bản
+          lĩnh như một chiến binh. Chúng ta không sợ vấp ngã, chỉ sợ bỏ cuộc. Cũng vì tính không dễ dàng khuất phục nên
+          mới có được nguồn sức mạnh to lớn để tự mình hoàn thành những mục tiêu của cuộc đời. Cũng là quá trình vượt
+          qua thử thách để bản thân trưởng thành hơn mỗi ngày.</p>
+      </div>
+      <div id="second-div">
+        <img src="image/pic2.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+  <p class="text-center" style="margin-top: 50px;font-size: 32px;color: black;font-weight: 600;">Feedback của chúng tôi:
+  <p>
+  <div data-slide="slide" class="slide">
+    <div class="slide-items">
+      <img src="image/feedback1.jpeg" alt="Img 1">
+      <img src="image/feedback2.jpeg" alt="Img 2">
+      <img src="image/feedback3.jpeg" alt="Img 3">
+      <img src="image/feedback4.jpeg" alt="Img 4">
+      <img src="image/feedback5.jpeg" alt="Img 5">
+    </div>
+    <nav class="slide-nav">
+      <div class="slide-thumb"></div>
+      <button class="slide-prev">Anterior</button>
+      <button class="slide-next">Próximo</button>
+    </nav>
+  </div>
+
+  <div style="margin-top: 50px;">
+    <p style="font-size: 30px;" class="text-center">Cám ơn và hẹn gặp lại các bạn nhé !</p>
+  </div>
+
+  <script>
+    class SlideStories {
+      constructor(id) {
+        this.slide = document.querySelector(`[data-slide="${id}"]`);
+        this.active = 0;
+        this.init();
+      }
+
+      activeSlide(index) {
+        this.active = index;
+        this.items.forEach((item) => item.classList.remove('active'));
+        this.items[index].classList.add('active');
+        this.thumbItems.forEach((item) => item.classList.remove('active'));
+        this.thumbItems[index].classList.add('active');
+        this.autoSlide();
+      }
+
+      prev() {
+        if (this.active > 0) {
+          this.activeSlide(this.active - 1);
+        } else {
+          this.activeSlide(this.items.length - 1);
+        }
+      }
+
+      next() {
+        if (this.active < this.items.length - 1) {
+          this.activeSlide(this.active + 1);
+        } else {
+          this.activeSlide(0);
+        }
+      }
+
+      addNavigation() {
+        const nextBtn = this.slide.querySelector('.slide-next');
+        const prevBtn = this.slide.querySelector('.slide-prev');
+        nextBtn.addEventListener('click', this.next);
+        prevBtn.addEventListener('click', this.prev);
+      }
+
+      addThumbItems() {
+        this.items.forEach(() => (this.thumb.innerHTML += `<span></span>`));
+        this.thumbItems = Array.from(this.thumb.children);
+      }
+
+      autoSlide() {
+        clearTimeout(this.timeout);
+        this.timeout = setTimeout(this.next, 5000);
+      }
+
+      init() {
+        this.next = this.next.bind(this);
+        this.prev = this.prev.bind(this);
+        this.items = this.slide.querySelectorAll('.slide-items > *');
+        this.thumb = this.slide.querySelector('.slide-thumb');
+        this.addThumbItems();
+        this.activeSlide(0);
+        this.addNavigation();
+      }
+    }
+
+    new SlideStories('slide');
+  </script>
+  <style>
+    .nav__overlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: none;
+    }
+
+    .nav__mobile {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 250px;
+      max-width: 100%;
+      background-color: #fff;
+      transform: translateX(100%);
+      opacity: 0;
+      transition: transform linear 0.2s, opacity linear 0.2s;
+    }
+
+    .nav__mobile-list {
+      margin-top: 24px;
+    }
+
+    .nav__mobile-link {
+      text-decoration: none;
+      cursor: pointer;
+      display: block;
+      color: #fff;
+      font-size: larger;
+      padding: 8px 0;
+      text-align: left;
+      margin-left: 50px;
+      margin-top: 10px;
+    }
+
+    .nav__mobile-close {
+      text-align: right;
+      color: #666;
+      cursor: pointer;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+
+    .nav__input:checked~.nav__overlay {
+      display: block;
+    }
+
+    .nav__input:checked~.nav__mobile {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    @media (max-width: 1023px) {
+      .nav__bars-btn {
+        display: block !important;
+      }
+
+      .main-header .wrap-logp-mb {
+        visibility: unset;
+        opacity: 1;
+      }
+
+      .nav_pc {
+        display: none;
+      }
+
+      .main-logo-theivu {
+        display: none;
+      }
+
+      .nav-mb {
+        display: block !important;
+      }
+
+      .image__pc {
+        display: none;
+      }
+
+      .unbox {
+        width: fit-content;
+        /* block-size: fit-content; */
+      }
+
+      .first-content,
+      .second-content {
+        display: block;
+      }
+
+      #first-div,
+      #second-div,
+      #third-div,
+      #fourth-div,
+      #fifth-div {
+        width: 100%;
+      }
+
+      .half-firstdiv p {
+        padding-left: 0px;
+      }
+    }
+  </style>
+</body>
+<footer style=" width: 100%;bottom: 0px;" class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>THEIVU</h4>
+        <ul>
+          <li><a style="font-size: small;" href="#">Với <span style="text-transform: lowercase;">thông điệp</span>
+              "Runway in the right way", THEIVU <span style="text-transform: lowercase;">mong muốn đem đến cho khách
+                hàng một trải nghiệm thú vị bằng các sản phẩm thời trang ý nghĩa.</span></a></li>
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a style="font-size: small;" href="#">Nếu<span style="text-transform: lowercase;"> bạn có bất cứ vấn đề
+                gì, đừng ngần ngại hãy liên hệ chúng tôi.</span> </a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <ul>
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope" viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+              </svg>: <span style="text-transform: lowercase;">theivu.official@gmail.com</span></a>
+          </li>
+          <li><a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg>: 090 855 00 86
+            </a>
+          </li>
+          <li><a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop"
+                viewBox="0 0 16 16">
+                <path
+                  d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z" />
+              </svg>: Thiết <span style="text-transform: lowercase;">kế</span> - Thời <span
+                style="text-transform: lowercase;">trang</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/Theivu.official"><svg xmlns="http://www.w3.org/2000/svg" width="26"
+              height="26" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg></a>
+          <a href="https://www.instagram.com/theivu.official/"><svg xmlns="http://www.w3.org/2000/svg" width="26"
+              height="26" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
